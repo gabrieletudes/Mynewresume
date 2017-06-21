@@ -1,0 +1,11 @@
+.hidden{
+position: absolute;
+left: -9999px;
+visibility: hidden;
+}
+
+@mixin hidden($pos:absolute, $left:-9999px, $hid:hidden) {
+    position: $pos;
+    left: $left;
+    visibility: $hid;
+}

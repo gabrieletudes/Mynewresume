@@ -1,0 +1,25 @@
+/*General font-size*/
+$browser-context: 1em;
+
+@function em($pixels, $context: $browser-context) {
+    //if context is em value, first convert to px
+    @if (unit($context) == "em" ) {
+      $context: $context * $browser-context;
+    }
+
+  @if (unit($pixels) == "em" ) {
+    @return $pixels;
+  }
+
+  @if (unit($pixels) ) {
+    //strip the units first
+    $pixels: $pixels / ($pixels * 0 + 1);
+  }
+
+  @if (unit($context)) {
+    //strip the units first
+    $context: $context / ($context * 0 + 1);
+  }
+
+  @return $pixels / $context * ($browser-context/16);
+}
