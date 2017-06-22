@@ -60,7 +60,6 @@ body{
     align-items: center;
     display: flex;
     flex-wrap: wrap;
-    //justify-content: center;
 	max-width: 1240px;
 	width: 100%;
 	margin-top: 11px;
@@ -77,7 +76,6 @@ body{
 	background-color: #fafafa;
 	align-items: center;
 	display: flex;
-	//flex-wrap: wrap;
 	justify-content: center;
 	flex-direction: column;
 	border-bottom: 1px solid $borderLightGrey;
@@ -93,7 +91,6 @@ body{
 
 //main navigation
 .main-nav{
-//	align-self: center;
 	max-width: 1240px;
 	width: 100%;
 }
@@ -102,41 +99,21 @@ body{
 	.main-nav {
     background-color: #f8f8f8;
     text-transform: uppercase;
-    //justify-content: center;
-    //align-items: center;
-    //display: flex;
     box-shadow: 0 1px 2px rgba(0,0,0,0.2);
 	max-height: 40px;
 	overflow: hidden;
 }
 }
 
-
-
-/*h1{
-	font-weight: 400;
-	font-size: 1em;
-	color: grey;
-	display: inline;
-	-moz-transition-property: color,font-size;
-	    transition-duration: 0.5s;
-}*/
 .nom{
 	display: inline;
 	color: #6a6a6a;
 	font-weight: bold;
 }
 
-/*h1:hover{
-	font-size: 2em;
-	font-weight: 600;
-	color: blue;
-}*/
-
 .titre {
     font-family: futura;
     font-size: em(36px);
-    //padding-right: 21px;
     text-decoration: none;
     padding-bottom: 0px;
     line-height: 1.4em;
@@ -149,7 +126,6 @@ body{
 	    line-height: 1em;
 	    align-self: center;
 	    justify-content: center;
-	    //order: 2;
 	    max-height: 50px;
 		margin: 0.5em 0;
 		align-self: center;
@@ -159,11 +135,9 @@ body{
 #chercher{
 	background-color: #F1F1F1;
     margin: 9px 19px;
-   // max-width: 632px;
 	display: flex;
 	flex-direction: row;
 	flex: 1 1 auto;
-	//flex-wrap: wrap;
 	border-radius: 2px;
 	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
 	padding: 0;
@@ -177,17 +151,11 @@ body{
 	#chercher {
 	    order: 2;
 	    margin: 0;
-	    //padding: 0;
 	    border-bottom: 1px solid rgba(0,0,0,.12);
 	    box-shadow: -1px 0px 1px rgba(0,0,0,0.09);
         width: 100%;
 	}
 }
-
-
-/*input[type="search"] {
-	-webkit-appearance: none;
-}*/
 
 
 input {
@@ -206,15 +174,12 @@ input {
 	appearance: none;
 	-webkit-border-radius: 0px;
 	box-shadow: 0 0 24px rgba(0,0,0,0);
-	//outline: none;
 	margin: 0;
 }
 
 @media screen and (max-width: 768px) {
 	input {
-	    //min-width: 86.2%;
 	    background-color: #fefefe;
-	    //border: 0;
 	    max-width: 90.2%;
 		padding-left: 16px;
 		border: 0;
@@ -234,7 +199,6 @@ input {
 	min-height: 44px;
 	border: 1px solid rgba(0,0,0,0);
 	font-weight: bold;
-	/*background: transparent linear-gradient(#4387FD, #4683EA) repeat scroll 0% 0%;*/
 	background: white;
 	border-radius: 0 2px 2px 0;
 	min-width: 46px;
@@ -298,16 +262,12 @@ input {
 }
 
 .menu {
-    //border-bottom: solid 1px #ebebeb;
     display: flex;
-    //flex-wrap: wrap;
 	padding: 0 156px;
 }
 
 .menu li{
 	display: flex;
-	//align-content: center;
-	//padding-right: 17px;
 	transition: color,font-size 0.1s ease-in-out;
 }
 
@@ -316,15 +276,11 @@ input {
 		padding: 0;
 		min-height: 70px;
 		overflow: auto;
-		//flex-wrap: nowrap;
-		//align-items: center;
-		//justify-content: center;
 	}
 	.menu li{
 		margin-right: 0;
 		padding-right: 0;
 		max-height: 40px;
-		//flex: 1 1 auto;
 	}
 }
 
@@ -373,7 +329,6 @@ input {
 
 @media screen and (max-width: 768px) {
 	.container {
-	    //min-width: 53%;
 	    display: flex;
 	    flex: 1 0 auto;
 	    flex-direction: column;
@@ -382,13 +337,6 @@ input {
     	max-width: 100%;
 		margin: 0;
 	}
-}
-
-@media screen and (min-width: 1024px){
-    .container{
-   // max-width: 33.5em;
-   // margin-right: 53px;
-    }
 }
 
 
@@ -420,16 +368,12 @@ aside {
      background-color: #fff;
      margin-bottom: 10px;
      line-height: 20px;
-    // justify-content: center;
 	 align-items: center;
      display: flex;
      flex-direction: column;
      padding: 13px 13px 0;
      border-radius: 2px;
 	 width: 100%;
-	 /*& h3{
-		 width: 89.478%;
-	 }*/
 	}
 }
 
@@ -568,7 +512,6 @@ aside {
 	min-width: 100%;
 	&__elmnt{
 		&--nxt {
-	    //margin-left: 10px;
 	    flex-direction: row-reverse;
 	    align-content: space-between;
 	    min-width: 100%;
@@ -577,7 +520,6 @@ aside {
 	    align-items: center;
 	    justify-content: center;
 	    padding: 0 15px;
-	    //width: 304px;
 	    font-size: 14px;
 	    display: flex;
 	    text-decoration: none;
@@ -607,7 +549,6 @@ aside {
     border-bottom: 1px solid #ebebeb;
     padding-bottom: 10px;
     width: 98%;
-    //padding-left: 5.1%;
 }
 }
 
@@ -708,13 +649,10 @@ aside {
     padding: 0 7px 27px;
 &-dl{
 	background-color: white;
-	//min-width: 73px;
 }
 & dt{
 	width: 72px;
 	height: 72px;
-	//background-image: url('https://cdn-images-1.medium.com/max/400/1*QnlI8nTg-t9G3pLrxbX9-w.png');
-	//background: url('../images/sprite-sheet.svg#sass-icon');
 	background-size: 80px;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -748,8 +686,6 @@ aside {
 
 
 & dd {
-    //width: 72px;
-    //font-size: small;
     padding-left: 8px;
     padding-right: 8px;
     padding-bottom: 6px;
@@ -806,9 +742,7 @@ aside {
 	margin: 0;
 	background-color: #f8f8f8;
 	padding: 14px 15px;
-	//padding-top: 13px;
 	font-weight: 600;
-	//padding-bottom: 11px;
 	}
 	&__article{
 		border-top: 1px solid rgba(0,0,0,.12);
@@ -861,7 +795,6 @@ aside {
 	    flex-direction: column;
 	& img{
 		min-height: 144px;
-		//border-left: 1px solid white;
 		margin-left: 8px;
 		width: auto;
 	}
@@ -920,13 +853,8 @@ aside {
 	font-size: small;
 	margin-bottom: 20px;
 	margin-top: 12px;
-	//padding-left: 134px;
-	//display: flex;
-	//align-self: flex-start;
-	//padding-left: 164px;
 	max-width: 72%;
 	width: 892px;
-	//min-width: 10%;
 }
 
 @media screen and (max-width: 768px) {
@@ -939,8 +867,6 @@ aside {
 .content-wrapper{
     max-width: 1240px;
     display: flex;
-    //justify-content: center;
-    //align-items: center;
     margin-left: 144px;
     flex-direction: row;
 }
@@ -967,8 +893,6 @@ aside {
     border-top: 1px solid $borderFooter;
     margin-top: 26px;
     font-size: small;
-    //display: flex;
-    //align-items: center;
     &__intro{
         max-width: 896px;
         margin: 18px auto 0;
