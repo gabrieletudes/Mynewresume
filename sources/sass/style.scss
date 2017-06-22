@@ -409,6 +409,9 @@ aside {
 .contenu{
 	margin-bottom: 25px;
 	line-height: 1.4;
+	&__header{
+	width: 98%;
+	}
 }
 
 @media screen and (max-width: 768px) {
@@ -421,11 +424,12 @@ aside {
 	 align-items: center;
      display: flex;
      flex-direction: column;
-     padding: 13px 0 0 0;
+     padding: 13px 13px 0;
      border-radius: 2px;
-	 & h2{
+	 width: 100%;
+	 /*& h3{
 		 width: 89.478%;
-	 }
+	 }*/
 	}
 }
 
@@ -602,8 +606,8 @@ aside {
     font-size: 0.875em;
     border-bottom: 1px solid #ebebeb;
     padding-bottom: 10px;
-    min-width: 100%;
-    padding-left: 5.1%;
+    width: 98%;
+    //padding-left: 5.1%;
 }
 }
 
@@ -614,7 +618,7 @@ aside {
 
 @media screen and (max-width: 768px) {
 	.resumen {
-    max-width: 89.478%;
+    width: 99%;
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -993,5 +997,5 @@ aside {
     &__link:hover{
         color:$linksHoverFooter;
     }
-    
+
 }
